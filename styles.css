@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #7b64f5, #01a9b4);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .section {
+    width: 50%;
+    background-color: transparent;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  
+  #add-todo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #add-todo input[type="text"] {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    margin-left: 200px;
+  }
+  
+  #add-todo button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 200px;
+  }
+  
+  #add-todo button:hover {
+    background-color: #219651;
+  }
+  
+  #todo-container {
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todo-list li {
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  #todo-list li button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #todo-list li button:hover {
+    background-color: #e74c3c;
+  }
+  
+  #clear-btn {
+    margin-top: 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 200px;
+  }
+  
+  #clear-btn:hover {
+    background-color: #d35400;
+  }
+  
+  #notice {
+    color: #fff;
+    font-size: small;
+    font-style: italic;
+    font-family: cursive;
+    margin-left: 210px;
+  }
